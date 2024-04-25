@@ -5,15 +5,15 @@ import math
 import pandas as pd
 import numpy as np
 
-# DEFAULT_MATCHES="https://docs.google.com/spreadsheets/d/e/2PACX-1vRy2DUdUbaKx_Co9F0FSnIlyS-8kp4aKv_I0-qzNeghiZHAI_hw94gKG22XTxNJHMFnFVKsO4xWOdIs/pub?gid=1655759976&single=true&output=csv"
-# DEFAULT_BALLS="https://docs.google.com/spreadsheets/d/e/2PACX-1vRu6cb6Pj8C9elJc5ubswjVTObommsITlNsFy5X0EiBY7S-lsHEUqx3g_M16r50Ytjc0XQCdGDyzE_Y/pub?output=csv"
+DEFAULT_MATCHES="https://docs.google.com/spreadsheets/d/e/2PACX-1vRy2DUdUbaKx_Co9F0FSnIlyS-8kp4aKv_I0-qzNeghiZHAI_hw94gKG22XTxNJHMFnFVKsO4xWOdIs/pub?gid=1655759976&single=true&output=csv"
+DEFAULT_BALLS="https://docs.google.com/spreadsheets/d/e/2PACX-1vRu6cb6Pj8C9elJc5ubswjVTObommsITlNsFy5X0EiBY7S-lsHEUqx3g_M16r50Ytjc0XQCdGDyzE_Y/pub?output=csv"
 
 class IPL:
     OBJECT_NUMBER = 0
 
     def __init__(self, ipl_matches="data/IPL_Matches_2008_2022.csv", ipl_balls="data/IPL_Ball_by_Ball_2008_2022.csv"):
-        self.matches = pd.read_csv(ipl_matches)
-        self.balls = pd.read_csv(ipl_balls)
+        self.matches = pd.read_csv(DEFAULT_MATCHES) #(ipl_matches)
+        self.balls = pd.read_csv(DEFAULT_BALLS) #(ipl_balls)
         self.Data_Optimization()
 
         self.limited_ball_match = self.balls.merge(self.matches[['ID','Season','MatchNumber','Team1','Team2', 'WinningTeam', 'Player_of_Match']], on='ID', how='inner').copy()
