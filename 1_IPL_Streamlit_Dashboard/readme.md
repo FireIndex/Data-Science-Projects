@@ -1,6 +1,6 @@
 # IPL Insights Dashboard 🏏
 
-Welcome to the **IPL Insights Dashboard** repository! This project offers an interactive dashboard for analyzing Indian Premier League (IPL) cricket data from 2008 to 2022. The dashboard is built using Streamlit and Plotly, providing insights into team, batting, and bowling performances, as well as player comparisons.
+Welcome to the **IPL Insights Dashboard** repository! This project offers an interactive dashboard for analyzing Indian Premier League (IPL) cricket data from 2008 to 2022. The dashboard is built using Streamlit and Plotly, providing insights into team, batting, and bowling performances, as well as player comparisons. [live ✨](https://fireindex-ipl-dashboard.streamlit.app/)
 
 For a brief overview of the IPL Insights Dashboard, watch the following video:
 
@@ -110,6 +110,6 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ---
 
-[![Follow on Twitter](https://img.shields.io/twitter/follow/yourhandle?style=social)](https://twitter.com/FireIndex__)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/ipl-insights-dashboard?style=social)](https://github.com/FireIndex/1_DataScience_Project--IPL_Streamlit_Dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/ipl-insights-dashboard?style=social)](https://github.com/FireIndex/1_DataScience_Project--IPL_Streamlit_Dashboard)
+[![Follow on Twitter](https://img.shields.io/twitter/follow/FireIndex__?style=social)](https://twitter.com/FireIndex__)
+[![GitHub Stars](https://img.shields.io/github/stars/FireIndex/Data-Science?style=social)](https://github.com/FireIndex/Data-Science)
+[![GitHub Forks](https://img.shields.io/github/forks/FireIndex/Data-Science?style=social)](https://github.com/FireIndex/Data-Science)
