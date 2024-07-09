@@ -1,0 +1,22 @@
+-- REMOVE
+
+remove top heading.
+
+keep only 'State, India/State/Union, Census, Persons, Males, Females'
+these heading is in 2 row make it in one row and heading it
+
+remove state record
+remove empty row
+
+-- CLEANING
+remove special character from India/State/Union column
+delete cell which are not number
+
+# replace census record
+[___6 to ___5] -> ___1
+Also check non of them are empty cences
+
+-- FILLING
+
+
+fill State, India/State/Union column complete
